@@ -97,3 +97,7 @@
     background-color: var(--bs-dark);
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
 }
+
+.contact-btn {
+    margin-left: 55px;
+}

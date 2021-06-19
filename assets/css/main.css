@@ -4,6 +4,11 @@
     --custom-bg-shadow-primary: #329e307a;
 }
 
+.navbar {
+    transition: background 210ms, padding 210ms;
+    /* transition-timing-function: ease; */
+}
+
 .custom-btn-primary {
     background-color: var(--custom-bg-primary);
     border-color: var(--custom-bg-primary);
@@ -84,4 +89,11 @@
 .btn-whatsapp {
     background-color: #23c379;
     border-color: #23c379;
+}
+
+.scrolled {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    background-color: var(--bs-dark);
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
 }
